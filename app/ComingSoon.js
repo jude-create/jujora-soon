@@ -110,7 +110,7 @@ export default function ComingSoon() {
       transition={{duration: 1.5}}
       className='space-y-12 sm:space-y-24'
       >
-      <div className=" shadow-md shadow-black py-5">
+      <div className="   py-5">
         <h3 className='capitalize text-center text-lg font-semibold text-[#D8993C] lg:text-xl' >about us</h3>
         <p className='font-normal text-sm text-center   mx-auto w-96 px-4 sm:w-[500px] sm:text-base lg:text-lg lg:w-[650px]  '>At JUJORA, we make easy the process of buying healthy foods by 
         bringing the farm straight to your doorstep. We connect farmers 

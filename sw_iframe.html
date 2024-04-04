@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+</head>
+<body>
+  <script>
+'use strict';/*
+
+ Copyright The Closure Library Authors.
+ SPDX-License-Identifier: Apache-2.0
+*/
+var k=this||self,l=function(a){return a};class m{constructor(a){this.g={};this.h={};this.i=0;this.j=a;this.id=String(Math.floor(Number.MAX_SAFE_INTEGER*Math.random()))}}function n(a){return a.performance&&a.performance.now()||Date.now()}
+var p=function(a,c){class d{constructor(b,f,e){this.failureType=b;this.data=f;this.g=e;this.h=new m(n(e))}l(b,f){const e=b.clientId;if(0===b.type){b.isDead=!0;var g=this.h,h=n(this.g);null==g.g[e]&&(g.g[e]=0,g.h[e]=h,g.i++);g.g[e]++;b.stats={targetId:g.id,clientCount:g.i,totalLifeMs:Math.round(h-g.j),heartbeatCount:g.g[e],clientLifeMs:Math.round(h-g.h[e])}}b.failure={failureType:this.failureType,data:this.data};f(b)}}return new d(2,a,c)};var t;var u=class{constructor(a){this.g=a}toString(){return this.g+""}},v=function(a){return a instanceof u&&a.constructor===u?a.g:"type_error:TrustedResourceUrl"},w={},x=function(a){const c=a;var d;if(void 0===t){var b=null,f=k.trustedTypes;if(f&&f.createPolicy){try{b=f.createPolicy("goog#html",{createHTML:l,createScript:l,createScriptURL:l})}catch(g){k.console&&k.console.error(g.message)}t=b}else t=b}const e=(d=t)?d.createScriptURL(c):c;return new u(e,w)};/*
+
+ SPDX-License-Identifier: Apache-2.0
+*/
+function y(a,c,d){return a.register(v(c),d)};function z(a){const c=a.split(/\?|#/),d=/\?/.test(a)?"?"+c[1]:"";return{path:c[0],params:d,hash:/#/.test(a)?"#"+(d?c[2]:c[1]):""}}function A(a,...c){if(0===c.length)return x(a[0]);let d=a[0];for(let b=0;b<c.length;b++)d+=encodeURIComponent(c[b])+a[b+1];return x(d)}
+function B(a,c){const d=z(v(a).toString());let b=d.params,f=b.length?"&":"?";c.forEach((e,g)=>{const h=e instanceof Array?e:[e];for(let q=0;q<h.length;q++){const r=h[q];null!==r&&void 0!==r&&(b+=f+encodeURIComponent(g)+"="+encodeURIComponent(String(r)),f="&")}});return x(d.path+b+d.hash)};var D=function(a){const c=a.origin;if(c){var d=a.j?B(A`sw.js`,new Map([["origin",c]])):A`/gtm/static/${"sw.js"}?origin=${c}`;y(a.window.navigator.serviceWorker,d,{scope:a.window.document.location.href}).then(()=>{a.window.navigator.serviceWorker.ready.then(b=>{a.g=b.active;C(a)})},b=>{a.h=p(null==b?void 0:b.toString(),a.window);C(a)});a.window.navigator.serviceWorker.addEventListener("message",b=>{a.window.parent.postMessage(b.data,a.origin)})}},C=function(a){const c=a.i.slice();a.i=[];for(const d of c)a.handleEvent(d)};
+(function(a){if((f=>{try{return f!==f.top}catch(e){return!0}})(a.window)){var c=new URL(a.window.document.location.href),d=c.searchParams.get("origin");if(d){a.origin=d;a.j=!!c.searchParams.get("1p");var b=a.window.document.location.ancestorOrigins;b&&b[0]!==a.origin||(D(a),a.window.addEventListener("message",f=>{a.handleEvent(f)}))}}})(new class{constructor(a){this.window=a;this.origin="";this.j=!1;this.h=this.g=null;this.i=[]}handleEvent(a){a.origin===this.origin&&(this.g?this.g.postMessage(a.data):
+this.h?this.h.l(a.data,c=>{this.window.parent.postMessage(c,this.origin)}):this.i.push(a))}}(window));
+  </script>
+</body>
+</html>
