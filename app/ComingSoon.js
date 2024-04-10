@@ -112,12 +112,14 @@ export default function ComingSoon() {
       >
       <div className="   py-5">
         <h3 className='capitalize text-center text-lg font-semibold text-[#D8993C] lg:text-xl' >about us</h3>
-        <p className='font-normal text-sm text-center   mx-auto w-96 px-4 sm:w-[500px] sm:text-base lg:text-lg lg:w-[650px]  '>At JUJORA, we make easy the process of buying healthy foods by 
-        bringing the farm straight to your doorstep. We connect farmers 
-        and consumers, making it easy, convenient and stress-free to access
-        fresh farm produce. Our goal is to create a world where farm produce 
-        comes to you easily, providing an efficient and effective way for 
-        individuals to maintain a healthy life.</p>
+        <p className='font-normal text-sm text-center   mx-auto w-96 px-4 sm:w-[500px] sm:text-base lg:text-lg lg:w-[650px]'>
+        At JUJORA, we make the process of buying healthy foods easy by bringing 
+        the farm straight to your doorstep. We connect farmers and consumers 
+        allowing for convenient and stress-free to access fresh farm produce. 
+        Our goal is to create a world where farm produce comes to you without 
+        any effort, providing an efficient and effective way for individuals to
+         maintain a healthy lifestyle.
+        </p>
       </div>
 
       <div>
