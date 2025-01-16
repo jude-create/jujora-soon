@@ -33,7 +33,7 @@ export default function HeroSection() {
         {items.map((e) => (
           <div className="flex items-center gap-3" key={e.img}>
             <div className="flex justify-center items-center bg-secondary p-2 rounded-full ">
-              <img src={`images/landing_images/${e.img}.webp`} className="h-10 w-10" alt="" />
+              <img src={`images/landing_images/${e.img}.webp`} className="h-5 w-5" alt="" />
             </div>
             <h1 className="text-white text-wrap font-medium text-sm md:text-base text-start">{e.text}</h1>
           </div>

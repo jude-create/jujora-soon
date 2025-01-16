@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <header>
       <div className=" flex justify-between items-center py-2 bg-secondary-light px-3">
-        <img src="images/landing_images/jujora_icon.webp" alt="" className="h-12 w-12"/>
+        <img src="images/landing_images/jujora_icon.webp" alt="" className="h-12 "/>
         <div className="hidden md:flex md:w-1/2 lg:w-1/3 md:justify-around">
           <Link href={""}>Home</Link>
           <Link href={""}>About</Link>

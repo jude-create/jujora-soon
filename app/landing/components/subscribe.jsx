@@ -9,9 +9,9 @@ export default function Subscribe() {
       <h1 className="font-mountains text-3xl md:text-6xl underline text-secondary">
         Subscribe to our Newsletter
       </h1>
-      <h1 className="text-xl md:text-3xl font-semibold my-3 md:my-0 ">
-        Join the JUJORA community now to get all the news and insights directly
-        to your mailbox
+      <h1 className="text-xl md:text-3xl font-semibold my-3 md:my-0 text-center ">
+        Join the JUJORA community now to get all the news and insights <span className="text-white">directly
+        to your mailbox</span> 
       </h1>
 
       <div className="flex flex-col md:flex-row gap-4 w-full  items-center justify-around">
