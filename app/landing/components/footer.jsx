@@ -29,9 +29,11 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className=" h-1 w-2/3 mx-auto"></div>
+        <div className="bg-white my-2 h-1 w-2/3 mx-auto"></div>
+
         <div className="flex justify-between items-center">
           <div className="flex gap-2">
+            <div className="w-2 md:w-0"></div>
             <SocialIcon
               bgColor="#000000"
               color="black"
@@ -60,9 +62,10 @@ export default function Footer() {
             />
           </div>
         </div>
-        <h1 className="text-black font-bold pr-5 mt-2">Jujora @2025</h1>
+        <div className="text-black font-bold mt-2 ml-4">
+          <h1>Jujora @2025</h1>
+        </div>
       </div>
-      ={" "}
     </footer>
   );
 }

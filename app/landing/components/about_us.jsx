@@ -4,7 +4,7 @@ export default function AboutUs(){
       <h1 className="text-secondary underline mx-auto text-3xl md:text-6xl font-mountains mt-6 my-2">About Jujora</h1>
       <h1 className="text-secondary mx-auto text-2xl md:text-3xl">Get to know more about us</h1>
       <div className=" flex flex-col md:flex-row items-center md:gap-4 w-full">
-        <div className=" md:mx-6 w-[30%] md:h-[450px] clip-pentagon bg-blue-500 flex items-center justify-center">
+        <div className=" md:mx-6 w-[200px] md:w-[30%] h-[200px] md:h-[450px] clip-pentagon bg-blue-500 flex items-center justify-center">
           <img
             src="images/landing_images/about_us.webp"
             alt="Image"
@@ -32,7 +32,7 @@ export default function AboutUs(){
               Sed dignissim, metus nec fringilla
             </h1>
           </div>
-          <button className="bg-secondary rounded-lg py-2 px-2 lg:px-4">
+          <button className="bg-secondary rounded-lg py-2 px-2 lg:px-4 mb-5 md:mb-0">
             <h1 className="text-white text-sm lg:text-lg font-semibold">
               Read More...
             </h1>
