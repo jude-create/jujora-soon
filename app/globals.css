@@ -8,5 +8,10 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+@layer utilities {
+  .clip-pentagon {
+    clip-path: polygon(50% 10%, 100% 25%, 100% 75%, 50% 60%, 0% 75%, 0% 25%);
+  }
 
+}
 
