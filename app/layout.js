@@ -1,5 +1,4 @@
 import { Montserrat } from "next/font/google";
-import '@fontsource/mountains-of-christmas'; // Default weight 400
 import Head from "next/head";
 import "./globals.css";
 
