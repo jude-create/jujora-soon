@@ -9,7 +9,7 @@ import Footer from "./components/footer";
 
 export default function LandingPage() {
   return (
-    <div>
+    <div className="flex flex-col gap-2 relative bg-secondary-light">
       <Navbar />
       <HeroSection />
       <VideoSection />

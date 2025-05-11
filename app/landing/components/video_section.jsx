@@ -28,16 +28,6 @@ export default function VideoSection() {
             className=" object-cover"
           />
         </div>
-        {/* <div className=" flex justify-center items-center my-auto">
-          <iframe
-            src="https://www.tiktok.com/@jujora_ng/video/7429573340991458565?is_from_webapp=1&sender_device=pc&web_id=7376686038506669573"
-            controls
-            autoPlay
-            loop
-            muted
-            className=" object-cover"
-          />
-        </div> */}
       </div>
     </section>
   );

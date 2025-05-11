@@ -62,7 +62,7 @@ export default function Footer() {
             />
           </div>
         </div>
-        <div className="text-black font-bold mt-2 ml-4">
+        <div className="text-black font-bold mt-2 ml-4 mb-4 md:mb-0">
           <h1>Jujora @2025</h1>
         </div>
       </div>
