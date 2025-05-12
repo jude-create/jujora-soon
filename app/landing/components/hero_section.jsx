@@ -8,13 +8,14 @@ export default function HeroSection() {
     { img: "in_transit", text: "Fast Delivery" },
   ];
   return (
-    <div className="relative aspect-[410/337] md:aspect-[1512/995]  ">
+    <div className="relative aspect-[410/337] md:aspect-[1512/995] md:mt-0 top-10 md:top-0">
       <Image
         className="w-full h-full object-cover"
         src="/images/landing_images/action_image.webp"
         fill
         alt=""
-      />
+      />      
+
 
       <div className=" lg:gap-4  absolute  left-1/2 transform -translate-x-1/2 w-[100%]   md:left-[75%] md:top-[10%] md:w-2/5 h-full ">
         <div className="flex flex-col items-center justify-around md:justify-center text-center h-full py-[5%] md:py-0 md:gap-4">

@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <header>
-      <div className=" flex justify-between items-center py-2 bg-secondary-light px-3">
+      <div className=" flex justify-between items-center py-2 bg-secondary-light px-3 fixed top-0 z-10 w-full">
         <img src="images/landing_images/jujora_icon.webp" alt="" className="h-12 "/>
         <div className="hidden md:flex md:w-1/2 lg:w-1/3 md:justify-around">
           <Link href={""}>Home</Link>
@@ -46,8 +46,8 @@ const Navbar = () => {
           </button>
         )}
       </div>
-      {showNav ? (
-        <div className="md:hidden bg-secondary-light">
+      {showNav && (
+        <div className="md:hidden bg-secondary-light ">
           <ul className="flex flex-col gap-3 p-6  ">
               <Link href="">Home</Link>
               <Link href="">About</Link>
@@ -56,9 +56,7 @@ const Navbar = () => {
               <Link href="/">Blog</Link>
           </ul>
         </div>
-      ) : (
-        <div></div>
-      )}
+      ) }
     </header>
   );
 };
