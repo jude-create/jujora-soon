@@ -4,7 +4,7 @@ import video2 from "../../../videos/video2.mp4.json";
 
 export default function VideoSection() {
   return (
-    <section>
+    <section className="mt-10 md:mt-0">
 
       <div className="my-4 mx-8 flex flex-col md:flex-row gap-6 p-6 items-center justify-center aspect-video md:aspect-[1512/790]">
         <div className=" flex justify-center items-center my-auto ">
