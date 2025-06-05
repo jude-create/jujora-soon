@@ -40,40 +40,39 @@ export default function Testimonials() {
         <div className="w-full flex flex-col justify-around items-center my-20 gap-20 md:gap-0 ">
           <div className="flex flex-col md:flex-row overflow-x-auto gap-10  scrollbar-hide h-max w-full ">
             {testimonials_color.map((e, index) => (
-            
-                <div
-                  key={index}
-                  ref={(el) => (itemRefs.current[index] = el)}
-                  className={`flex h-[80%] min-w-[400px] md:min-w-[500px] mx-auto -z-10 gap-10 items-center justify-between bg-${e} p-10 border  ${
-                    index === activeIndex
-                      ? "border-4 border-orange-400  bg-white h-[90%] "
-                      : "bg-green-100"
-                  }`}
-                >
-                  <div className="">
-                    <img
-                      src="images/landing_images/man.webp"
-                      alt="Profile"
-                      className="w-24 h-24 rounded-full border-4 border-white shadow-md"
-                    />
-                  </div>
-                  <div className="flex-1 flex-col gap-5 flex ">
-                    <h1 className="text-sm">
-                      What I love the most about Jujora is their quality and
-                      consistency. I've ordered multiple times and they've never
-                      disappointed. Their customer service is friendly and
-                      helpful too. I'm definitely sticking with them.
-                    </h1>
+              <div
+                key={index}
+                ref={(el) => (itemRefs.current[index] = el)}
+                className={`flex h-[80%] min-w-[400px] md:min-w-[500px] mx-auto -z-10 gap-10 items-center justify-between bg-${e} p-10 border  ${
+                  index === activeIndex
+                    ? "border-4 border-orange-400  bg-white h-[90%] "
+                    : "bg-green-100"
+                }`}
+              >
+                <div className="">
+                  <img
+                    src="images/landing_images/man.webp"
+                    alt="Profile"
+                    className="w-24 h-24 rounded-full border-4 border-white shadow-md"
+                  />
+                </div>
+                <div className="flex-1 flex-col gap-5 flex ">
+                  <h1 className="text-sm">
+                    What I love the most about Jujora is their quality and
+                    consistency. I've ordered multiple times and they've never
+                    disappointed. Their customer service is friendly and helpful
+                    too. I'm definitely sticking with them.
+                  </h1>
 
-                    <div className="flex gap-5">
-                      <h1 className="text-primary text-2xl">Chinazam</h1>
+                  <div className="flex gap-5">
+                    <h1 className="text-primary text-2xl">Chinazam</h1>
 
-                      <span className="flex justify-end items-end text-xs  ">
-                        Lagos
-                      </span>
-                    </div>
+                    <span className="flex justify-end items-end text-xs  ">
+                      Lagos
+                    </span>
                   </div>
                 </div>
+              </div>
             ))}
           </div>
 
