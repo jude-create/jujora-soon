@@ -1,6 +1,6 @@
 import Video from "next-video";
-import video1 from "../../../videos/video1.mp4.json";
-import video2 from "../../../videos/video2.mp4.json";
+import video1 from "../../../videos/video1.mp4";
+// import video2 from "../../../videos/video2.mp4.json";
 
 export default function VideoSection() {
   return (
@@ -20,7 +20,17 @@ export default function VideoSection() {
         </div>
         <div className=" flex justify-center items-center my-auto">
           <Video
-          src={video2}
+          src={video1}
+            controls
+            autoPlay
+            loop
+            muted
+            className=" object-cover"
+          />
+        </div>
+        <div className=" flex justify-center items-center my-auto">
+          <Video
+          src={video1}
             controls
             autoPlay
             loop

@@ -8,22 +8,31 @@ export default function HeroSection() {
     { img: "in_transit", text: "Fast Delivery" },
   ];
   return (
-    <div className="relative aspect-[410/337] md:aspect-[1512/995] md:mt-0 top-10 md:top-0">
+    <div className="relative aspect-[410/337] md:aspect-[1512/995] md:mt-0 top-10 md:top-0 items-center justify-items-center">
       <Image
         className="w-full h-full object-cover"
-        src="/images/landing_images/action_image.webp"
+        src="/images/landing_images/action_image.png"
         fill
         alt=""
-      />      
+      />
 
+      <div className="absolute top-10 h-1/3 w-[100%] mt-3">
+        <Image
+          className="w-full h-full object-center"
+          src="/images/landing_images/ontop.png"
+          fill
+          alt=""
+        />
+      </div>
 
-      <div className=" lg:gap-4  absolute  left-1/2 transform -translate-x-1/2 w-[100%]   md:left-[75%] md:top-[10%] md:w-2/5 h-full ">
+      {/* <div className=" lg:gap-4  absolute  left-1/2 transform -translate-x-1/2 w-[100%]   md:left-[75%] md:top-[10%] md:w-2/5 h-full "> */}
+      <div className="  lg:gap-4  absolute md:w-[50%] h-full right-0 left-0 md:translate-x-1/2 ">
         <div className="flex flex-col items-center justify-around md:justify-center text-center h-full py-[5%] md:py-0 md:gap-4">
-          <h1 className=" text-white text-2xl md:text-3xl lg:text-6xl text-wrap lg:mb-3 font-mountains font-extrabold">
-            Connecting you to the heart of Agriculture
+          <h1 className=" text-white text-2xl md:text-3xl lg:text-5xl text-wrap lg:mb-3 font-montse font-extrabold gap-1">
+           <span className="bg-[#AAAAAA] p-2 text-black">AI-Powered</span>  access to the freshest foods around you.{" "}
           </h1>
 
-          <h1 className="text-white text-base lg:text-3xl text-center lg:my-2 ">
+          <h1 className="text-white text-base lg:text-3xl text-center lg:my-2 font-mooli ">
             Enjoy the ease of shopping directly from farmers at your convenience
             ensuring quality and authenticity everytime.
           </h1>
@@ -40,15 +49,15 @@ export default function HeroSection() {
                 key={e.img}
               >
                 <div className="flex items-center justify-center bg-secondary p-1 rounded-full h-10 w-10 ">
-                    <Image
-                      src={`/images/landing_images/${e.img}.webp`}
-                      className="text-white"
-                      alt={e.img}
-                      height={50}
-                      width={30}
-                    />
+                  <Image
+                    src={`/images/landing_images/${e.img}.webp`}
+                    className="text-white"
+                    alt={e.img}
+                    height={50}
+                    width={30}
+                  />
                 </div>
-                <h1 className="text-white text-wrap font-medium text-xs md:text-base text-start">
+                <h1 className="text-white text-wrap font-semibold text-xs md:text-base text-start">
                   {e.text}
                 </h1>
               </div>

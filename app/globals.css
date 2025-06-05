@@ -10,8 +10,17 @@
 
 @layer utilities {
   .clip-pentagon {
-    clip-path: polygon(50% 10%, 100% 25%, 100% 75%, 50% 60%, 0% 75%, 0% 25%);
-  }
+    clip-path: polygon(50% 10%, 100% 25%, 100% 75%, 50% 80%, 0% 75%, 0% 25%);
+  },
+  .scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
 
 }
 

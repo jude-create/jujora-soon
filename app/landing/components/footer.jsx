@@ -31,39 +31,41 @@ export default function Footer() {
 
         <div className="bg-white my-2 h-1 w-2/3 mx-auto"></div>
 
-        <div className="flex justify-between items-center">
-          <div className="flex gap-2">
-            <div className="w-2 md:w-0"></div>
-            <SocialIcon
-              bgColor="#000000"
-              color="black"
-              target="_blank"
-              url="https://www.instagram.com/jujora_ng?utm_source=qr&igsh=MXV3dXByNGhoYmxhYw=="
-              style={{ height: 42, width: 42 }}
-            />
-            <SocialIcon
-              bgColor="#000000"
-              target="_blank"
-              url="https://x.com/jujora_ng?t=J6Jc2UzqyPMN_ozQ6I5hMA&s=09"
-              style={{ height: 42, width: 42 }}
-            />
-            <SocialIcon
-              bgColor="#000000"
-              target="_blank"
-              url="https://vm.tiktok.com/ZMMUu3NRD/"
-              style={{ height: 42, width: 42 }}
-            />
-            <SocialIcon
-              network="whatsapp"
-              bgColor="#000000"
-              target="_blank"
-              url="https://wa.me/message/5MKJMKEREXD7P1"
-              style={{ height: 42, width: 42 }}
-            />
+        <div className="flex justify-between">
+          <div className="flex justify-between items-center">
+            <div className="flex gap-2">
+              <div className="w-2 md:w-0"></div>
+              <SocialIcon
+                bgColor="#000000"
+                color="black"
+                target="_blank"
+                url="https://www.instagram.com/jujora_ng?utm_source=qr&igsh=MXV3dXByNGhoYmxhYw=="
+                style={{ height: 42, width: 42 }}
+              />
+              <SocialIcon
+                bgColor="#000000"
+                target="_blank"
+                url="https://x.com/jujora_ng?t=J6Jc2UzqyPMN_ozQ6I5hMA&s=09"
+                style={{ height: 42, width: 42 }}
+              />
+              <SocialIcon
+                bgColor="#000000"
+                target="_blank"
+                url="https://vm.tiktok.com/ZMMUu3NRD/"
+                style={{ height: 42, width: 42 }}
+              />
+              <SocialIcon
+                network="whatsapp"
+                bgColor="#000000"
+                target="_blank"
+                url="https://wa.me/message/5MKJMKEREXD7P1"
+                style={{ height: 42, width: 42 }}
+              />
+            </div>
           </div>
-        </div>
-        <div className="text-black font-bold mt-2 ml-4 mb-4 md:mb-0">
-          <h1>Jujora @2025</h1>
+          <div className="text-black font-bold mt-2 ml-4 mb-4 md:mb-0">
+            <h1>Jujora @2025</h1>
+          </div>
         </div>
       </div>
     </footer>

@@ -6,16 +6,17 @@ export default function Subscribe() {
       }}
       className="w-full bg-cover bg-center flex flex-col items-center justify-around aspect-[1512/610] px-10"
     >
-      <div className="mx-auto">
-        <h1 className="font-mountains text-3xl md:text-6xl underline text-secondary text-center">
+      <div className="flex flex-col mx-auto gap-10">
+        <h1 className="font-regular text-3xl md:text-4xl underline text-secondary text-center">
           Subscribe to our Newsletter
         </h1>
-      </div>
 
-      <h1 className="text-xl md:text-3xl font-medium my-3 md:my-0 text-center ">
+      <h1 className="text-xl md:text-2xl font-mooli my-3 md:my-0 text-center ">
         Join the JUJORA community now to get all the news and insights directly
         to your mailbox
       </h1>
+      </div>
+
 
       <div className="flex flex-col md:flex-row gap-4 w-full  items-center justify-around">
         <input
@@ -30,8 +31,8 @@ export default function Subscribe() {
         />
       </div>
 
-      <button className="bg-secondary rounded-lg my-4 py-2 md:py-4 px-2 md:px-6 hover:bg-opacity-80">
-        <h1 className="text-white text-sm lg:text-lg font-semibold">
+      <button className="bg-secondary rounded-lg my-4 py-2 md:py-4 px-2 md:px-6 hover:bg-opacity-80 md:w-[198px] md:h-[66px]">
+        <h1 className="text-white text-sm lg:text-lg font-semibold ">
           Subscribe
         </h1>
       </button>

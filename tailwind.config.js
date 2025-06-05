@@ -28,6 +28,7 @@ module.exports = {
           DEFAULT: '#D8993C', // Primary color (gold-like shade)
           light: '#FBBF24',   // Lighter shade of gold
           dark: '#B45309',    // Darker shade of gold
+          tertiary : '#F2F2F2'
         },
         secondary: {
           DEFAULT: '#85C42D', // Secondary color (green)
