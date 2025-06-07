@@ -10,15 +10,15 @@ export default function AboutUs() {
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="flex flex-col items-center gap-4 w-[60%]">
+          <div className="flex flex-col items-center gap-4 w-[90%] md:w-[60%]">
             <div className="">
-              <h1 className="text-primary underline mx-auto text-3xl md:text-5xl font-mooli mt-6 my-2">
+              <h1 className="text-primary underline mx-auto text-2xl md:text-5xl font-mooli mt-6 my-2 text-center md:text-start">
                 About Jujora
               </h1>
-              <h1 className="text-black opacity-100 mx-auto text-start text-2xl md:text-3xl mb-5">
+              <h1 className="text-black opacity-100 mx-auto text-2xl md:text-3xl mb-5 text-center md:text-start">
                 Get to know more about us
               </h1>
-              <h1 className="text-black opacity-100 text-xl mb-5">
+              <h1 className="text-black opacity-100 text-md md:text-xl mb-5 text-center md:text-start">
                 At Jujora, we’re passionate about making fresh, quality
                 groceries effortlessly accessible to you. Founded in 2024, we
                 combine the convenience of online shopping with fast, reliable
@@ -26,7 +26,7 @@ export default function AboutUs() {
                 professional, a homemaker, or anyone who values fresh produce,
                 Jujora is here to simplify your grocery experience.
               </h1>
-              <h1 className="text-black text-xl ">
+              <h1 className="text-black text-md md:text-xl text-center md:text-start">
                 We partner directly with trusted suppliers to ensure top-quality
                 products at great prices. Our mission is to bring freshness,
                 convenience, and happiness to every home.

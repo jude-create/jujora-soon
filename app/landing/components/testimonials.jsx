@@ -59,7 +59,7 @@ export default function Testimonials() {
 
   return (
     <section>
-      <div className="flex flex-col items-center w-screen">
+      <div className="flex flex-col justify-center items-center md:w-screen">
         <h1 className="text-secondary underline mx-auto text-3xl md:text-6xl font-molli my-2 mt-10">
           Testimonials
         </h1>
@@ -67,15 +67,15 @@ export default function Testimonials() {
           What our clients say about us!
         </h1>
 
-        <div className="w-full flex flex-col justify-around items-center my-20 gap-20 md:gap-0 ">
+        <div className=" w-[90%] md:w-full flex flex-col justify-around items-center my-20 gap-20 md:gap-0 ">
           <div className="flex flex-col md:flex-row overflow-x-auto gap-10  scrollbar-hide h-max w-full ">
             {testimonials.map((testimonial, index) => (
               <div
                 key={index}
                 ref={(el) => (itemRefs.current[index] = el)}
-                className={`flex h-[80%] min-w-[400px] md:min-w-[500px] mx-auto -z-10 gap-10 items-center justify-between bg-${testimonial.color} p-10 border  ${
+                className={`flex h-[80%] p-3 md:p-5 md:min-w-[290px] mx-auto -z-10 gap-5 md:gap-10 items-center justify-between bg-${testimonial.color}  border  ${
                   index === activeIndex
-                    ? "border-4 border-orange-400  bg-white h-[90%] "
+                    ? "md:border-4 md:border-orange-400  bg-white h-[90%] "
                     : "bg-green-100"
                 }`}
               >
@@ -87,7 +87,7 @@ export default function Testimonials() {
                   />
                 </div>
                 <div className="flex-1 flex-col gap-5 flex ">
-                  <h1 className="text-sm">{testimonial.title}</h1>
+                  <h1 className="text-sm md:text-md">{testimonial.title}</h1>
 
                   <div className="flex gap-5">
                     <h1 className="text-primary text-2xl">
@@ -103,7 +103,7 @@ export default function Testimonials() {
             ))}
           </div>
 
-          <div className="flex gap-6 mt-20 bg-transparent">
+          <div className=" gap-6 mt-20 bg-transparent hidden md:flex">
             <button
               onClick={() =>
                 setActiveIndex((prev) => (prev > 0 ? prev - 1 : prev))

@@ -29,23 +29,20 @@ export default function ChooseUs() {
           </h1>
         </div>
 
-        <div className="flex-2">
 
-        </div>
-
-        <div className="md:w-min flex flex-col md:flex-row justify-center mt-10 items-center gap-8 md:gap-0 mx-auto bg-black shadow-black shadow-2xl ">
+        <div className="flex flex-col md:flex-row justify-center mt-10 items-center gap-3 md:gap-0 mx-auto w-[80%] md:w-min bg-black shadow-black shadow-2xl h-full">
           {topics.map((e, index) => (
             <div
               key={index}
-              className="relative w-[70%] md:w-96 p-6  rounded-tr-3xl rounded-bl-3xl shadow-lg"
+              className="flex flex-col w-[100%] h-full md:w-96 p-3 md:p-6 gap-8 md:gap-10 rounded-tr-3xl rounded-bl-3xl shadow-lg"
               style={{ backgroundColor: e.color }} // Dynamically set the background color
             >
-              <div className="absolute top-4 left-4 text-3xl font-montserrat text-black">
-                <h1 className="text-shadow px-2 rounded-md text-start">
+              <div className="text-2xl md:text-3xl font-montserrat text-black">
+                <h1 className="text-shadow rounded-md text-start">
                   {e.title}
                 </h1>
               </div>
-              <div className="mt-16 mb-10 md:mt-24 text-sm text-gray-700 text-center w-full">
+              <div className="mb-10  text-sm text-gray-700 text-center w-full">
                 <h1 className="w-full text-start">{e.text}</h1>
               </div>
             </div>
