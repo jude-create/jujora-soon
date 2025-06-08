@@ -25,15 +25,6 @@ export default function VideoSection() {
             className=" object-cover"
           />
         </div>
-        <div className=" flex justify-center items-center my-auto">
-          {/* <MuxPlayer
-            playbackId={playbackId}
-            streamType="on-demand"
-            controls
-            autoPlay
-            style={{ width: "100%", height: "auto" }}
-          /> */}
-        </div>
       </div>
     </section>
   );
