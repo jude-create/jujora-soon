@@ -79,7 +79,7 @@ export default function Testimonials() {
                     : "bg-green-100"
                 }`}
               >
-                <div className="">
+                <div className={` flex md:${index !== activeIndex ? "hidden" : "flex"}`}>
                   <img
                     src="images/landing_images/man.webp"
                     alt="Profile"
