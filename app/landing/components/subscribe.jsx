@@ -11,7 +11,7 @@ export default function Subscribe() {
           Subscribe to our Newsletter
         </h1>
 
-      <h1 className="text-xl md:text-2xl font-mooli my-3 md:my-0 text-center ">
+      <h1 className="text-md md:text-2xl font-mooli my-3 md:my-0 text-center ">
         Join the JUJORA community now to get all the news and insights directly
         to your mailbox
       </h1>

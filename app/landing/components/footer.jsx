@@ -16,13 +16,13 @@ export default function Footer() {
 
           <div className="flex justify-between md:justify-around gap-20">
             <div className="flex flex-col gap-1">
-              <h1 className="text-4xl capitalize mb-1"> Support</h1>
+              <h1 className="text-2xl md:text-4xl capitalize mb-1"> Support</h1>
               <h1 className="text-primary">Contact</h1>
               <h1 className="text-primary">FAQ</h1>
             </div>
 
             <div className="flex flex-col gap-1">
-              <h1 className="text-4xl capitatlize mb-1"> Legal</h1>
+              <h1 className="text-2xl md:text-4xl capitatlize mb-1"> Legal</h1>
               <h1 className="text-primary">Copyrights Information</h1>
               <h1 className="text-primary">Terms and Conditions</h1>
             </div>
@@ -31,7 +31,7 @@ export default function Footer() {
 
         <div className="bg-white my-2 h-1 w-2/3 mx-auto"></div>
 
-        <div className="flex justify-between">
+        <div className="flex w-[95%] items-center self-center md:w-full justify-between">
           <div className="flex justify-between items-center">
             <div className="flex gap-2">
               <div className="w-2 md:w-0"></div>
