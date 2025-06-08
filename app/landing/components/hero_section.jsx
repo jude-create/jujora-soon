@@ -25,7 +25,6 @@ export default function HeroSection() {
         />
       </div>
 
-      {/* <div className=" lg:gap-4  absolute  left-1/2 transform -translate-x-1/2 w-[100%]   md:left-[75%] md:top-[10%] md:w-2/5 h-full "> */}
       <div className="  lg:gap-4  absolute md:w-[50%] h-full right-0 left-0 md:translate-x-1/2 ">
         <div className="flex flex-col items-center justify-around md:justify-center text-center h-full py-[5%] md:py-0 md:gap-4">
           <h1 className=" text-white text-2xl md:text-3xl lg:text-5xl text-wrap lg:mb-3 font-montse font-extrabold gap-1">
