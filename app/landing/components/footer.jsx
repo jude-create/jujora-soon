@@ -9,22 +9,26 @@ export default function Footer() {
             <div className="w-[34px] h-[23px] md:w-[69px] md:h-[48px]">
               <img src="images/landing_images/jujora_icon.webp" alt="" />
             </div>
-            <h1 className="text-xl md:text-3xl mb-2">
+            <h1 className="text-sm md:text-2xl mb-2">
               Bringing you the convenience you deserve.
             </h1>
           </div>
 
           <div className="flex justify-between md:justify-around gap-20">
             <div className="flex flex-col gap-1">
-              <h1 className="text-2xl md:text-4xl capitalize mb-1"> Support</h1>
-              <h1 className="text-primary">Contact</h1>
-              <h1 className="text-primary">FAQ</h1>
+              <h1 className="text-xl md:text-3xl capitalize mb-1"> Support</h1>
+              <h1 className="text-primary text-sm md:text-xl">Contact</h1>
+              <h1 className="text-primary text-sm md:text-xl">FAQ</h1>
             </div>
 
             <div className="flex flex-col gap-1">
-              <h1 className="text-2xl md:text-4xl capitatlize mb-1"> Legal</h1>
-              <h1 className="text-primary">Copyrights Information</h1>
-              <h1 className="text-primary">Terms and Conditions</h1>
+              <h1 className="text-xl md:text-3xl capitatlize mb-1"> Legal</h1>
+              <h1 className="text-primary text-sm md:text-xl">
+                Copyrights Information
+              </h1>
+              <h1 className="text-primary text-sm md:text-xl">
+                Terms and Conditions
+              </h1>
             </div>
           </div>
         </div>
@@ -40,30 +44,31 @@ export default function Footer() {
                 color="black"
                 target="_blank"
                 url="https://www.instagram.com/jujora_ng?utm_source=qr&igsh=MXV3dXByNGhoYmxhYw=="
-                style={{ height: 42, width: 42 }}
+                style={{ height: 30, width: 30 }}
               />
+
               <SocialIcon
                 bgColor="#000000"
                 target="_blank"
                 url="https://x.com/jujora_ng?t=J6Jc2UzqyPMN_ozQ6I5hMA&s=09"
-                style={{ height: 42, width: 42 }}
+                style={{ height: 30, width: 30 }}
               />
               <SocialIcon
                 bgColor="#000000"
                 target="_blank"
                 url="https://vm.tiktok.com/ZMMUu3NRD/"
-                style={{ height: 42, width: 42 }}
+                style={{ height: 30, width: 30 }}
               />
               <SocialIcon
                 network="whatsapp"
                 bgColor="#000000"
                 target="_blank"
                 url="https://wa.me/message/5MKJMKEREXD7P1"
-                style={{ height: 42, width: 42 }}
+                style={{ height: 30, width: 30 }}
               />
             </div>
           </div>
-          <div className="text-black font-bold mt-2 ml-4 mb-4 md:mb-0">
+          <div className="text-gray-800 text-sm md:text-xl mt-2 ml-4 mb-4 md:mb-0">
             <h1>Jujora @2025</h1>
           </div>
         </div>

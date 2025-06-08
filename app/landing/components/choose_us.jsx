@@ -21,10 +21,10 @@ export default function ChooseUs() {
     <section>
       <div className=" w-screen text-center bg-[#D2D2D2] py-20">
         <div className="pb-10">
-          <h1 className="text-secondary underline mx-auto text-3xl md:text-4xl font-regular ">
+          <h1 className="text-secondary underline mx-auto text-xl md:text-4xl font-regular ">
             Why Choose Us?
           </h1>
-          <h1 className=" mx-auto text-2xl md:text-3xl font-regular">
+          <h1 className=" mx-auto text-sm md:text-2xl font-regular">
             What makes us stand out amongst others
           </h1>
         </div>

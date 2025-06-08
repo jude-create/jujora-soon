@@ -60,10 +60,10 @@ export default function Testimonials() {
   return (
     <section>
       <div className="flex flex-col justify-center items-center md:w-screen">
-        <h1 className="text-secondary underline mx-auto text-3xl md:text-6xl font-molli my-2 mt-10">
+        <h1 className="text-secondary underline mx-auto text-xl md:text-4xl font-molli my-2 mt-10">
           Testimonials
         </h1>
-        <h1 className=" mx-auto text-2xl md:text-3xl text-center font-molli">
+        <h1 className=" mx-auto text-sm md:text-2xl text-center font-molli">
           What our clients say about us!
         </h1>
 

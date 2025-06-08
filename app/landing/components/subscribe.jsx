@@ -4,14 +4,14 @@ export default function Subscribe() {
       style={{
         backgroundImage: `url('/images/landing_images/subscribe.webp')`,
       }}
-      className="w-full bg-cover bg-center flex flex-col items-center justify-around aspect-[1512/610] px-10"
+      className="w-full bg-cover bg-center flex flex-col items-center justify-around aspect-[1512/610] px-10 gap-5 md:gap-0 mt-7 md:mt-0"
     >
-      <div className="flex flex-col mx-auto gap-10">
-        <h1 className="font-regular text-3xl md:text-4xl underline text-secondary text-center">
+      <div className="flex flex-col mx-auto gap-2">
+        <h1 className="font-regular text-xl md:text-4xl underline text-secondary text-center">
           Subscribe to our Newsletter
         </h1>
 
-      <h1 className="text-md md:text-2xl font-mooli my-3 md:my-0 text-center ">
+      <h1 className="text-sm md:text-2xl font-mooli  md:my-0 text-center ">
         Join the JUJORA community now to get all the news and insights directly
         to your mailbox
       </h1>
