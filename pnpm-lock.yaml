@@ -17,12 +17,6 @@ importers:
       '@mux/mux-node':
         specifier: ^9.0.1
         version: 9.0.1
-      '@mux/mux-player':
-        specifier: ^3.2.4
-        version: 3.2.4
-      '@mux/mux-player-react':
-        specifier: ^3.2.4
-        version: 3.2.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       firebase:
         specifier: ^10.10.0
         version: 10.14.1
@@ -682,22 +676,6 @@ packages:
 
   '@mux/mux-node@9.0.1':
     resolution: {integrity: sha512-+wSqwCkb3/RplJkhd35R44+Ov1pQTzXDJSCLF8yxBRodUL2uqG/ajCSix+miIiPNY+v/tx0rJ9+t6dxe2ZR/Dg==}
-
-  '@mux/mux-player-react@3.2.4':
-    resolution: {integrity: sha512-1ShxKJIYO/CPR+vPG8zv680Ix3hXzbmVd/5zciIqBK4QMJNfYMHpeArnYyRRb/25e1MsVQJPXqhtA2Qq2VB2TA==}
-    peerDependencies:
-      '@types/react': ^17.0.0 || ^17.0.0-0 || ^18 || ^18.0.0-0 || ^19 || ^19.0.0-0
-      '@types/react-dom': '*'
-      react: ^17.0.2 || ^17.0.0-0 || ^18 || ^18.0.0-0 || ^19 || ^19.0.0-0
-      react-dom: ^17.0.2 || ^17.0.2-0 || ^18 || ^18.0.0-0 || ^19 || ^19.0.0-0
-    peerDependenciesMeta:
-      '@types/react':
-        optional: true
-      '@types/react-dom':
-        optional: true
-
-  '@mux/mux-player@3.2.4':
-    resolution: {integrity: sha512-SffYfO0Bc0P9idlh3vgPFnlF27PVX/keGyDD9DnNQgSv/srfKBNpTBBuhmEij9pxKNcmre7Wc8Wvd2SWYLs1gw==}
 
   '@mux/mux-video@0.24.2':
     resolution: {integrity: sha512-GuTVdERPQ7ayROwPJ6TtCEQIjMzF3Gj4RzhTJh0hdA293XQo0Np1AFpVimi9GKdLaGVrvzEvRnQ8naGQgF6wLQ==}
@@ -2175,9 +2153,6 @@ packages:
     resolution: {integrity: sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==}
     engines: {node: '>= 0.4'}
 
-  media-chrome@4.3.0:
-    resolution: {integrity: sha512-Gr8Jd7eEjG53u8w0kJSWVUf1AbqUhRmMO9g2CvMDU4/V3ixy+FRKNRDNkPTQLHU6YN8PsCwfQVv619HL7lm8+Q==}
-
   media-chrome@4.3.1:
     resolution: {integrity: sha512-pj81Nm5P9hI1Q7PfpV6AqklgCPh8trcI1U/MdSyBzOMm1OG5qK1rKCkY+GXpy3dGCXpIpsIc5O3w6yOilQNO0w==}
 
@@ -2427,9 +2402,6 @@ packages:
   pirates@4.0.6:
     resolution: {integrity: sha512-saLsH7WeYYPiD25LDuLRRY/i+6HaPYr6G1OUlN39otzkSTxKnubR9RTxS3/Kk50s1g2JTgFwWQDQyplC5/SHZg==}
     engines: {node: '>= 6'}
-
-  player.style@0.1.1:
-    resolution: {integrity: sha512-9ggoxE/y3A652f3JycliDk84x4sErHrS6YkI0GWP5IFGNj6sY/0LCJDjV1/eQEvwvRJLU7NTwVfxn91X0AvvZg==}
 
   player.style@0.1.2:
     resolution: {integrity: sha512-yFf3Vn1XtgaBKHBleWj0gu8TQWUP7pnf2EoFVD01nipe+0+oC1AJeZ7qgtjUWbGh1dpvA/BHtYGBrrSW0KolhA==}
@@ -4113,21 +4085,6 @@ snapshots:
       node-fetch: 2.7.0
     transitivePeerDependencies:
       - encoding
-
-  '@mux/mux-player-react@3.2.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
-    dependencies:
-      '@mux/mux-player': 3.2.4
-      '@mux/playback-core': 0.28.2
-      prop-types: 15.8.1
-      react: 19.0.0
-      react-dom: 19.0.0(react@19.0.0)
-
-  '@mux/mux-player@3.2.4':
-    dependencies:
-      '@mux/mux-video': 0.24.2
-      '@mux/playback-core': 0.28.2
-      media-chrome: 4.3.0
-      player.style: 0.1.1
 
   '@mux/mux-video@0.24.2':
     dependencies:
@@ -5933,8 +5890,6 @@ snapshots:
 
   math-intrinsics@1.1.0: {}
 
-  media-chrome@4.3.0: {}
-
   media-chrome@4.3.1: {}
 
   media-tracks@0.3.3: {}
@@ -6167,10 +6122,6 @@ snapshots:
   pify@2.3.0: {}
 
   pirates@4.0.6: {}
-
-  player.style@0.1.1:
-    dependencies:
-      media-chrome: 4.3.0
 
   player.style@0.1.2:
     dependencies:
